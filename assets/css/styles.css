@@ -7,8 +7,6 @@ body {
 	font-size: 1em;
 }
 
-
-
 /*navigation menu*/
 .navbar {
 	height: 70px;
@@ -469,7 +467,7 @@ h1 {
 	font-size: 0.75em;
 	margin-left: 0 auto;
 	color: #333;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	margin-bottom: 0;
 	transition-duration: 0.8s;
 	width: 100%;
@@ -493,6 +491,24 @@ h1 {
 	margin-bottom: 30px;
 	transition-duration: 0.8s;
 	overflow: hidden;
+}
+
+@media(min-width: 767px) {
+	.web-dev {
+		height: 325px;
+	}
+}
+
+@media(min-width: 1024px) {
+	.web-dev {
+		height: 335px;
+	}
+}
+
+@media(min-width: 1500px) {
+	.web-dev {
+		height: 400px;
+	}
 }
 
 .img-block {
@@ -660,4 +676,3 @@ input[type="email"] {
 	margin-top: 20px;
 	color: #7d7d7d;
 }
-

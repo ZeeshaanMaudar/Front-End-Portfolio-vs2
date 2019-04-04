@@ -107,6 +107,44 @@ $(document).ready(function(){
 		$(".mongodb").removeClass("animated flash");
 	})
 
+	// reactjs logo
+	$(".REACTJS").on("mouseover", function(){
+		$(".reactjs").addClass("animated swing");
+	})
+
+	$(".REACTJS").on("mouseout", function(){
+		$(".reactjs").removeClass("animated swing");
+	})
+
+	// redux logo
+	$(".REDUX").on("mouseover", function(){
+		$(".redux").addClass("animated tada");
+	})
+
+	$(".REDUX").on("mouseout", function(){
+		$(".redux").removeClass("animated tada");
+	})
+
+	// sass logo
+	$(".SASS").on("mouseover", function(){
+		$(".sass").addClass("animated jackInTheBox");
+	})
+
+	$(".SASS").on("mouseout", function(){
+		$(".sass").removeClass("animated jackInTheBox");
+	})
+
+	// github logo
+	$(".GITHUB").on("mouseover", function(){
+		$(".github").addClass("animated wobble");
+	})
+
+	$(".GITHUB").on("mouseout", function(){
+		$(".github").removeClass("animated wobble");
+	})
+
+  
+
 	// end of skills logo animation
 
 	// Smooth Scrolling
